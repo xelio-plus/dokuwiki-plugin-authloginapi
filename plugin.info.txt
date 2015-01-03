@@ -1,0 +1,7 @@
+base   authloginapi
+author xelio-plus
+email  xelio-plus@outlook.com
+date   2014-12-29
+name   Login API Auth Plugin
+desc   Authenticate against a Login API server
+url    https://github.com/xelio-plus/dokuwiki-plugin-authloginapi
