@@ -32,7 +32,7 @@ class action_plugin_authloginapi extends DokuWiki_Action_Plugin
     /**
      * {@inheritDoc}
      */
-    public function register(Doku_Event_Handler &$controller)
+    public function register(Doku_Event_Handler $controller)
     {
         $controller->register_hook('HTML_LOGINFORM_OUTPUT', 'BEFORE', $this, 'handle_login_form');
     }
